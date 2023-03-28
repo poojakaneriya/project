@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img2"
+            android:layout_gravity="center"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="skip"
+           android:textSize="20dp"
+           android:layout_gravity="end"
+           android:layout_marginRight="75dp"
+           android:layout_marginTop="50dp"
+           android:textColor="@color/white"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/img_1"
+            android:layout_gravity="end"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="45dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="supplements"
+            android:textSize="45dp"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Workout plans designed to help you achieve\n
+your fitness goals - Whether losing weight or\n
+building muscle"
+            android:layout_gravity="center|left"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="Log in"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:background="@drawable/button"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="60dp"
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="Sign Up"
+                android:gravity="center"
+                android:background="@drawable/button2"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="60dp"
+                android:layout_marginLeft="200dp"/>
+
+    </FrameLayout>
+
+</LinearLayout>
